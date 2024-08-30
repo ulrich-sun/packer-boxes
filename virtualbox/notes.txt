@@ -1,0 +1,22 @@
+# Procédure pour VirtualBox
+
+## Prérequis
+
+- Installation de VirtualBox
+- Installation de Vagrant
+- Disposer d'un compte Vagrant Cloud
+- Créer une release de votre box sur votre compte Vagrant Cloud
+
+## Configuration du token Vagrant Cloud
+
+### Sous Linux
+
+```bash
+export VAGRANT_CLOUD_TOKEN="your_token_here"
+```
+
+### Sous Powershell
+
+```bash 
+$env:VAGRANT_CLOUD_TOKEN="your_token_here"
+```

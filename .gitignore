@@ -1,0 +1,38 @@
+# Ignorer les fichiers de configuration temporaires et les sorties de Packer
+packer_cache
+# Fichiers de log
+packer.log
+
+# Fichiers de sortie
+output-*
+
+# Fichiers de variables personnalisées
+*.auto.pkrvars.hcl
+*.pkrvars.hcl
+
+# Fichiers de configuration temporaires
+*.tmp
+*.temp
+*.bak
+
+# Fichiers générés par l'utilisateur
+*.box
+*.iso
+
+# Vagrant
+.vagrant/
+
+# Fichiers de log spécifiques au système d'exploitation
+*.log
+*.swp
+
+# Repertoires spécifiques à l'IDE
+.idea/
+.vscode/
+*.iml
+
+# Système de fichiers MacOS
+.DS_Store
+
+# Système de fichiers Windows
+Thumbs.db
